@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+}
+nav {
+	background-color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: right;
+	margin-right: 600px;
+	width: 1365px;
+}
+
+.navlist {
+	overflow: hidden;
+	list-style-type: none;
+	float: right;
+}
+.navlistitem {
+	float: left;
+}
+.navlistitem a {
+	display: block;
+	font-family: "Caros Soft", "Caros Soft Bold", "Caros Soft ExtraBold", "Caros Soft Heavy", "Caros Soft Medium";
+	font-style: normal;
+	font-weight: 600;
+	color: #000000;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 20px;
+	line-height: 20px;
+	text-decoration: none;
+}
+.navlistitem a:hover {
+	color: #AC7EEC;
+}
+.navlistitem a:active {
+	color: #6C55E0;
+}
+.logo img{
+	position: absolute;
+}
+.logo {
+}
